@@ -12191,13 +12191,20 @@ OS:WeatherFile,
   -99.14,                                 !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1280,                                   !- Elevation {m}
-  file:///private/var/folders/2z/fh3yv7r50rxgy804jm3f7b0c0000gn/T/OpenStudioApp.J27733/resources/files/Temixco.epw, !- Url
+  file:///private/var/folders/2z/fh3yv7r50rxgy804jm3f7b0c0000gn/T/OpenStudioApp.q30146/resources/files/Temixco.epw, !- Url
   74A69764;                               !- Checksum
 
 OS:Output:Variable,
-  {174dd6d6-2c67-45dc-8a97-dd47b605766f}, !- Handle
+  {ddda6599-be97-4157-ac96-15dcdc32e9b4}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {6c04345e-63c0-43c7-bf5a-0f62ab719d98}, !- Handle
+  Output Variable 2,                      !- Name
+  *,                                      !- Key Value
+  Zone Infiltration Air Change Rate,      !- Variable Name
   timestep;                               !- Reporting Frequency
 

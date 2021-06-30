@@ -5334,6 +5334,11 @@ Output:Variable,
   Zone Mean Air Temperature,              !- Variable Name
   timestep;                               !- Reporting Frequency
 
+Output:Variable,
+  *,                                      !- Key Value
+  Zone Infiltration Air Change Rate,      !- Variable Name
+  timestep;                               !- Reporting Frequency
+
 OutputControl:Table:Style,
   HTML;                                   !- Column Separator
 
